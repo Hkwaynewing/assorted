@@ -29,7 +29,7 @@ import java.util.Map;
  * Your method output should print out the hashed credit card numbers that have been identified as fraudulent.
  */
 
-class Solution {
+class FraudDetection {
 
     public static void main(String[] args) {
         Map<String, List<Record>> cardToTranMap = new HashMap<>();
