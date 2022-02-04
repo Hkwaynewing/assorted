@@ -41,7 +41,7 @@ class Solution {
             records.add(record);
         }
 
-        cardToTranMap.values()
+//        cardToTranMap.values()
     }
 
     // 10d7ce2f43e35fa57d1bbf8b1e2, 2014-04-28T13:15:54, 10.00  total sum
