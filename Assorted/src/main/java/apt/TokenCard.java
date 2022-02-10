@@ -1,4 +1,4 @@
-package solution;
+package apt;
 
 /*
 Part 1: can_purchase

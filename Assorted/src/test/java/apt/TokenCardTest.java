@@ -1,8 +1,8 @@
-package solution;
+package apt;
 
+import apt.TokenCard.Card;
+import apt.TokenCard.Wallet;
 import org.junit.jupiter.api.Test;
-import solution.TokenCard.Card;
-import solution.TokenCard.Wallet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
