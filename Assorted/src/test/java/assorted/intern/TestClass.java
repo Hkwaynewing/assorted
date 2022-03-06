@@ -45,10 +45,7 @@ class TestClass {
 
     @Test
     void testIntern_reuseObj() {
-        String st1 = new String("st1");
-        String st2 = new String("st2");
-        String st3 = new String("st1 ");
-        final List<String> strings = Arrays.asList(st1, st2, st3);
+        final List<String> strings = Arrays.asList("st1", "st2", "st1 ");
         List<String> arr = new ArrayList<>();
         for (String vall : strings) {
             final String cleaned = new String(vall).trim().intern();
@@ -59,7 +56,7 @@ class TestClass {
         }
 
         //only 1 obj if same
-        assertSame(arr.get(0), st1);
-        assertNotSame(arr.get(2), st3);
+        assertSame(arr.get(0), strings.get(0));
+        assertNotSame(arr.get(2), strings.get(2));
     }
 }
