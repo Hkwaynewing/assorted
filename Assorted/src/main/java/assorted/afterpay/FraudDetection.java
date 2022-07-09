@@ -1,4 +1,4 @@
-package apt;
+package assorted.afterpay;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package design;
+package assorted.canva.design;
 
 public class AuthContext {
 

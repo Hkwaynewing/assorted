@@ -1,4 +1,4 @@
-package at;
+package assorted.atl;
 
 import java.util.ArrayList;
 import java.util.HashMap;

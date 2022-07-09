@@ -1,4 +1,4 @@
-package apt;
+package assorted.afterpay;
 
 /*
 Part 1: can_purchase

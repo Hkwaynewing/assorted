@@ -3,7 +3,7 @@ package leetcode;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import traffic.TrafficProcessor;
+import assorted.seek.TrafficProcessor;
 
 public class TrafficProcessorTest {
 

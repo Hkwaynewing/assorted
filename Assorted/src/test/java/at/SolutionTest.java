@@ -8,6 +8,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
+import assorted.atl.FindWinner;
+import assorted.atl.Vote;
+
 class SolutionTest {
 
     @Test

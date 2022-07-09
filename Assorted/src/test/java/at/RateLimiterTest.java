@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
 
+import assorted.atl.RateLimiter;
+
 class RateLimiterTest {
 
     @Test

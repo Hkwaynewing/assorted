@@ -1,7 +1,8 @@
 package apt;
 
-import apt.TokenCard.Card;
-import apt.TokenCard.Wallet;
+import assorted.afterpay.TokenCard;
+import assorted.afterpay.TokenCard.Card;
+import assorted.afterpay.TokenCard.Wallet;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

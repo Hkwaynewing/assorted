@@ -1,4 +1,4 @@
-package at;
+package assorted.atl;
 
 import java.time.Duration;
 import java.util.HashMap;

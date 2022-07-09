@@ -1,4 +1,4 @@
-package design;
+package assorted.canva.design;
 
 import java.util.List;
 

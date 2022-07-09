@@ -1,4 +1,4 @@
-package flag;
+package assorted.canva.flag;
 
 import com.google.common.io.Files;
 

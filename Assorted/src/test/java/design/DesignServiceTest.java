@@ -5,8 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static design.DesignServiceImpl.clearValues;
+import static assorted.canva.design.DesignServiceImpl.clearValues;
 import static org.junit.jupiter.api.Assertions.*;
+
+import assorted.canva.design.AuthContext;
+import assorted.canva.design.DesignService;
+import assorted.canva.design.DesignServiceImpl;
 
 class DesignServiceTest {
 
