@@ -1,16 +1,15 @@
-package design;
+package assorted.canva.design;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import static assorted.canva.design.DesignServiceImpl.clearValues;
 
 import java.util.List;
 
-import static assorted.canva.design.DesignServiceImpl.clearValues;
-import static org.junit.jupiter.api.Assertions.*;
-
-import assorted.canva.design.AuthContext;
-import assorted.canva.design.DesignService;
-import assorted.canva.design.DesignServiceImpl;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 class DesignServiceTest {
 

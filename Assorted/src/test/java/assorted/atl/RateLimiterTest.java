@@ -1,10 +1,8 @@
-package at;
-
-import org.junit.jupiter.api.Test;
+package assorted.atl;
 
 import static org.junit.Assert.assertEquals;
 
-import assorted.atl.RateLimiter;
+import org.junit.jupiter.api.Test;
 
 class RateLimiterTest {
 

@@ -1,11 +1,13 @@
-package apt;
+package assorted.afterpay;
 
-import assorted.afterpay.TokenCard;
-import assorted.afterpay.TokenCard.Card;
-import assorted.afterpay.TokenCard.Wallet;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import assorted.afterpay.TokenCard.Card;
+import assorted.afterpay.TokenCard.Wallet;
 
 class TokenCardTest {
 
